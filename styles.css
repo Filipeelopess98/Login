@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    height: 100vh;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #353542;
+
+}
+
+.header {
+    background-color: rgba(231, 231, 233, 0.952);
+    display: flex;
+    width: 75%;
+    max-width: 400px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 20px;
+
+}
+
+.icon {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    right: 41%;
+    font-size: 25px;
+    background-color: #353542;
+    cursor: pointer;
+
+
+}
+
+
+.header.dark {
+    background: #303038;
+    color: #d3d3d3;
+}
+
+.header.dark a {
+    color: #d3d3d3;
+}
+
+
+
+.header.dark .icon {
+    background: rgba(231, 231, 233, 0.952);
+}
+
+
+.header.dark .input-password {
+   color: #d3d3d3;
+
+
+}
+
+
+
+.header.dark .input-dates {
+    color: #d3d3d3;
+}
+
+.logoproject {
+    width: 260px;
+    transition: transform 0.5s ease;
+}
+
+.logoproject:hover {
+    transform: scale(1.3);
+}
+
+.input-dates {
+    border: none;
+    padding: 12px;
+    width: 260px;
+    outline: none;
+    margin-top: 5px;
+   background: transparent;
+    text-align: center;
+    transition: transform 0.5s ease;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid rgb(121, 119, 119);
+    font-size: 16px;
+}
+
+
+.text-date {
+    text-align:start
+}
+
+.user {
+    margin-bottom: -8px;
+    margin-right: 4px;
+}
+
+.input-dates:active {
+    transform: scale(1.3);
+}
+
+.input-password {
+    border: none;
+    padding: 12px;
+    width: 230px;
+    outline: none;
+  background-color: transparent;
+    text-align: center;
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid rgb(121, 119, 119) ;
+    font-size: 16px;
+    
+}
+
+.text-password {
+    text-align: start;
+}
+
+.lock {
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+
+.input-password:active {
+    transform: scale(1.3);
+}
+
+
+.box-date {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.box-password {
+    margin: 15px;
+}
+
+.text-reset {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-register {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.checkbox-password {
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+}
+
+.checkbox-password:active {
+    transform: scale(1.1);
+}
+
+
+
+.button {
+    margin: 15px;
+}
+
+.button-login {
+    width: 210px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-image: linear-gradient(#0eb1e2, #771313);
+    color: #ffff;
+    font-size: 15px;
+    height: 400;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button-login:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.label {
+    margin-top: 15px;
+}
+
+.logo-facebook {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+
+.logo-facebook:hover {
+    transform: scale(0.9);
+}
+
+.logo-google {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    margin-left: 10px;
+}
+
+
+.logo-google:hover {
+    transform: scale(0.9);
+}
+
+.logo-apple {
+    width: 60px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+
+}
+
+.logo-apple:hover {
+    transform: scale(0.9);
+}
+
+.logos-redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
